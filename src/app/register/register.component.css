@@ -1,0 +1,7 @@
+mat-form-field {
+  display: block;
+}
+
+.buttons * {
+  margin-right: 20px;
+}
