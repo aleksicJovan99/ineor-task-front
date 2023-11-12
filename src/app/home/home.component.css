@@ -1,9 +1,4 @@
-mat-toolbar {
-  background-color: darkblue;
-}
-
-a {
-  color: aliceblue;
-  margin-left: 40px;
-  text-decoration: none;
+div {
+  text-align: center;
+  padding: 6rem;
 }

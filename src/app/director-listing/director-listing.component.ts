@@ -25,5 +25,8 @@ export class DirectorListingComponent {
     });
   }
 
-  displayedColumns: string[] = ['id', 'name'];
+  UpdateDirector(code: any) {}
+  DeleteDirector(code: any) {}
+
+  displayedColumns: string[] = ['id', 'name', 'action'];
 }

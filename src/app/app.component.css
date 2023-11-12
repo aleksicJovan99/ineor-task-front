@@ -9,3 +9,17 @@ body {
 body {
   margin: 0;
 }
+
+mat-toolbar {
+  background-color: darkblue;
+}
+
+a {
+  color: aliceblue;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
