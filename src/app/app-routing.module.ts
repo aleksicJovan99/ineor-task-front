@@ -11,8 +11,16 @@ const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'movies', component: MovieListingComponent },
-  { path: 'directors', component: DirectorListingComponent },
+  {
+    path: 'movies',
+    component: MovieListingComponent,
+    canActivate: [AuthGuard],
+  },
+  {
+    path: 'directors',
+    component: DirectorListingComponent,
+    canActivate: [AuthGuard],
+  },
 ];
 
 @NgModule({
