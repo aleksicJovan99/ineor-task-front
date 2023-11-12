@@ -28,12 +28,5 @@ export class MovieListingComponent {
   UpdateMovie(code: any) {}
   DeleteMovie(code: any) {}
 
-  displayedColumns: string[] = [
-    'id',
-    'name',
-    'rating',
-    'relaseDate',
-    'director',
-    'action',
-  ];
+  displayedColumns: string[] = ['id', 'name', 'rating', 'director', 'action'];
 }
