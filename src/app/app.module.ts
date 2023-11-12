@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { MovieListingComponent } from './movie-listing/movie-listing.component';
 import { DirectorListingComponent } from './director-listing/director-listing.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { DirectorListingComponent } from './director-listing/director-listing.co
     HomeComponent,
     MovieListingComponent,
     DirectorListingComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
