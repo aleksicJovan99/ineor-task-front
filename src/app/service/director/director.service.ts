@@ -4,11 +4,11 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
-export class AuthService {
+export class DirectorService {
   constructor(private http: HttpClient) {}
-  apiUrl = 'http://localhost:5135/api/authentication';
+  apiUrl = 'http://localhost:5135/api/directors';
 
-  Registration(inputData: any) {
-    return this.http.post(this.apiUrl, inputData);
+  GetAll() {
+    return this.http.get(this.apiUrl);
   }
 }
